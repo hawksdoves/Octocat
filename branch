@@ -1,1 +1,5 @@
-Explain what a branch is, in your own words
+The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
+
+You can create new branches. This is useful when sharing a project, as individuals can create their own branches from a particular hash (point in time), which will allow us to revert back to the project prior to any changes made by others.
+
+If checkout (move to) original branch, the master will point to the last commit before a branch was created. If you then checkout branchName, the master will point to the last commit of that branch (assuming that no branches from current branch).
