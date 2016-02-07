@@ -1,1 +1,8 @@
-Explain what git clone does, in your own words
+git clone repo cloned-repo
+This copies the repo into a new cloned-repo, s.t. there are now 2 repos
+
+The cloned-repo recognises the remote repo (recognises it as the "origin").
+
+Note that the cloned-repo does not recognise any branches that were in the original repo, as branches in the remote repo are not treated as local branches.
+
+If update original can pull the updates to cloned-repo by:	 git pull (whilst being in the cloned-repo)
