@@ -1,1 +1,5 @@
-Explain what the upstream remote is usually used for, in your own words
+upstream remote, is when there is a repo that is remotely located and when you copy (e.g. clone) that repo, you are then downstream.
+
+You can pull from the upstream remote and push from the downstream (back to the upstream).
+
+This is very useful when many people are making changes to the same source (upstream remote).
